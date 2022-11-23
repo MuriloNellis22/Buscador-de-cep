@@ -19,7 +19,7 @@ function App() {
           setCep(response.data)
           setInput('')
       } catch{
-          console.log("Ops! Erro ao buscar.")
+          setCep('Ops! Cep não encontrado.')
       }
     }
 
